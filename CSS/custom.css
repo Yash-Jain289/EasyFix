@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*Change Brand Name Font*/
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size:2em;
+    font-weight:bold;
+}
+
+/* Change Navigation Color*/
+.navbar #myMenu .custom-nav .nav-item a {
+    color:#fff;
+}
+
+.navbar #myMenu .custom-nav .nav-item a:hover {
+    color:#f0aab1;
+}
+
+/*Header Image*/
+.back-image {
+    background-size:cover;
+    min-height:110vh;
+    background-position:center center;
+    background-repeat: no-repeat;
+    border-radius:0px;
+    margin-top:74px;
+}
+
+/* Header Image Sub-title */
+.font-italic {
+    font-size:24px;
+}
+
+/*Margin For Welcome To OSMS*/
+.mainHeading {
+    margin-top:50px;
+    margin-left:20px;
+    position:relative;
+    top:200px;
+}
+
+/*All Links Customization And Icons Appearence*/
+a {
+    color:black;
+}
+.active {
+    color:white;
+    background-color: #262626;
+    border-radius:50px;
+}
+a:hover {
+    color:#f26571;
+}
+
+.fi-color {
+    color:#dc3545;
+}
+.fi-color:hover {
+    color:#e994a2;
+}
+.testimonial-div {
+    text-align:center;
+    padding-bottom:30px;
+}
+
+.testimonial-text {
+    padding:15px;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    margin-left:100px;
+}
+.testimonial-image {
+    border-radius:50px;
+    margin:20px;
+}
+#Contact {
+    margin-top:100px;
+}
+
+.footer {
+    text-align:left;
+}
+
+/*Responsiveness For All Devices*/
+@media only screen and (max-width:600px) {
+    .myclass {
+        margin-top:350px;
+        text-align:center;
+    }
+}
+
+
+
+.wrapper {
+    height:250px;
+    overflow-y:scroll;
+}
+.wrapper1 {
+    margin-top:7px;
+    height:600px;
+    overflow-y: scroll;
+}
